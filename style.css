@@ -59,7 +59,7 @@ code { font-size: 0.9em; padding: 0.1em 0.35em; border-radius: 6px; background: 
 
 /* Hero (atlas blue) */
 .stage { background: radial-gradient(ellipse 60% 80% at 80% 30%, var(--stage-raised), transparent 70%), linear-gradient(180deg, var(--stage), var(--stage-2)); color: var(--stage-ink); }
-.stage a { color: var(--accent); }
+.stage a:not(.btn) { color: var(--accent); }
 .stage .brand, .stage .bar nav a { color: var(--stage-ink); }
 .hero { display: grid; gap: 48px; padding: 40px 0 72px; }
 .hero h1 { margin: 0; font: 400 clamp(38px, 5.2vw, 60px)/1.06 var(--serif); letter-spacing: -0.02em; text-wrap: balance; }
